@@ -1,4 +1,4 @@
-const userName = prompt("Введите ваше имя:")?.trim();
+const userName = prompt("Enter your name:")?.trim();
 
 if (!userName || !isNaN(+userName)) {
   alert("Hello, noname! How are you?");
